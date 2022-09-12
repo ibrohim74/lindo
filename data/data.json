@@ -1,0 +1,10 @@
+[
+  {"img": "./images/products/360.png", "name": "360 ", "price": "2,72"},
+  {"img": "./images/products/coffee.png", "name": "Coffee", "price": "1,80"},
+  {"img": "./images/products/patircha.png", "name": "Patircha", "price": "1,69"},
+  {"img": "./images/products/360Kulcha.png", "name": "360 Kulcha", "price": "2,60"},
+  {"img": "./images/products/milano.png", "name": "Milano", "price": "2,65"},
+  {"img": "./images/products/yubiley.png", "name": "Yubileyniy", "price": "1,61"},
+  {"img": "./images/products/lindoPecheniyUzun.png", "name": "Lindo", "price": "1,63"},
+  {"img": "./images/products/karovka.png", "name": "Karovka", "price": "1,67"}
+]

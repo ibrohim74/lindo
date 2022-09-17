@@ -14,10 +14,10 @@
             target: 'img', //the element that the overlay will attach to
             caption: 'title', //the caption that will display when hover
             duration: 'fast', //specify how long the animation will lasts in milliseconds
-            fontColor: '#fff',
+            fontColor: '#000',
             textAlign: 'center', //display the caption left, center or right
             verticalMiddle: true, //display the caption vertical middle or not
-            backgroundColor: 'rgba(0,0,0,.7)', //specify the background color and opacity using rgba
+            backgroundColor: 'rgba(255,222,230,.7)', //specify the background color and opacity using rgba
             backgroundColorAttr: null, //specify the attribute with background color value and opacity using rgba
             reverse: false, //reverse the direction
             height: '100%', //specify the height of the overlay

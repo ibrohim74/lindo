@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/allProducts.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<div class="flex-group">
-<!--    <div class="flex-item">-->
-<!--        <div class="flex-img">-->
-<!--            <img src="images/remove/360.png" alt="" width="100%">-->
-<!--        </div>-->
-<!--        <div class="flex-text">-->
-<!--            <h1>Shkalat</h1>-->
-<!--            <h1>50$</h1>-->
-<!--        </div>-->
-<!--    </div>-->
-</div>
+<ul class="flex-group" id="container">
+    <!--    <div class="flex-item">-->
+    <!--        <div class="flex-img">-->
+    <!--            <img src="images/remove/360.png" alt="" width="100%">-->
+    <!--        </div>-->
+    <!--        <div class="flex-text">-->
+    <!--            <h1>Shkalat</h1>-->
+    <!--            <h1>50$</h1>-->
+    <!--        </div>-->
+    <!--    </div>-->
+</ul>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/jquery.sliphover.min.js"></script>
 <script type="application/javascript">
 
     fetch('data/data.json')
@@ -33,18 +35,28 @@
         console.log(item)
         for (let i = 0; i < item.length; i++) {
             $('.flex-group').append(
-                    '<div class="flex-item">'+
-                       ' <div class="flex-img">'+
-                            '<img src="'+item[i].img+'" alt="" width="100%">'+
-                        '</div>'+
-                       ' <div class="flex-text">'+
-                            '<h1>'+item[i].name+'</h1>'+
-                            '<h1>'+item[i].price+'</h1>'+
-                        '</div>'+
-                    '</div>'
+                '<li>' +
+                '<a href="">'+
 
+
+                '<div class="flex-item">' +
+                ' <div class="flex-img">' +
+                '<img src="' + item[i].img + '" alt="" width="100%" title="'+item[i].name+' <br> <p>sadasd</p>">' +
+                '</div>' +
+                // ' <div class="flex-text">'+
+                //      '<h1>'+item[i].name+'</h1>'+
+                //      '<h1>'+item[i].price+'</h1>'+
+                //  '</div>'+
+                '</div>' +
+        '</a>'+
+                '</li>'
             )
+            $(function () {
+
+                $('#container').sliphover();
+            })
         }
+
     }
 
 </script>

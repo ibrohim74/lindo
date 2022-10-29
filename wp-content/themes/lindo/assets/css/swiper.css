@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Calibri;
+    src: url("../fonts/calibri.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+.card{
+    width: 100%;
+    height: 100%;
+    /*background: #bceaf6;*/
+    overflow: hidden;
+}
+.card:hover{
+    /*background: #ffdee6;*/
+}
+.card-img{
+    /*padding: 20px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    width: 90%;
+    background: #ffaab0;
+    opacity: 0.7;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.text h1{
+    margin: 0 0 1px 0;
+}
+.card .text{
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Calibri;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+}
+.splide_pagination{
+    bottom: -2.1em;!important;
+}
+.splide__pagination ,.splide__pagination--ltr{
+    display: none;
+}
+.splide{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 30px 60px;
+    background: #ae2b33;
+    color: white;
+}
+.text-more a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

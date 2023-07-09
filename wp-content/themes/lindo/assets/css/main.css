@@ -21,7 +21,7 @@ body {
 
 ol, ul {
     list-style: none
-}
+}lo
 
 blockquote, q {
     quotes: none
@@ -5172,7 +5172,11 @@ img {
 .menu_open {
     position: fixed
 }
+#trp-floater-ls{
+    background:#ffabaf !important;
 
+}
+#trp-floater-ls-current-language a{color: #bceaf6 !important;}
 .menu a {
     position: relative
 }
@@ -5188,10 +5192,9 @@ img {
 .logo {
     font-family:Calibri;
     position: absolute;
-    top: 70%;
+    top: 29%;
     left: 50%;
     width: 100%;
-    max-width: 260px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6245,7 +6248,8 @@ a{
 }
 
 .C\(tallPoppy\) {
-    color: #bceaf6
+    color: #ffaab0;
+    font-weight: 600;
 }
 
 .Fill\(tallPoppy\) {
@@ -6293,7 +6297,7 @@ a{
 }
 
 .C\(saddleBlack\) {
-    color: #FFF;
+    color: #000;
 }
 
 .Fill\(saddleBlack\) {

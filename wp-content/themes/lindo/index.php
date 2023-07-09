@@ -4,45 +4,40 @@ Template Name: lindo
 */
 ?>
 <?php get_header() ?>
+<!--<div class="logo">-->
+<!--    <a class="logo__bistefani" href="/">-->
+<!--        <img alt="Logo Lindo" class="D(b) Maw(100%) My(0) Mx(a)"-->
+<!--             src="--><?php //bloginfo('template_url'); ?><!--/assets/img/lindoLogo.png">-->
+<!--    </a>-->
+<!--    <ul class="nav">-->
+<!--        <li><a href="#">About us</a></li>-->
+<!--        <li><a href="--><?php //bloginfo('template_url'); ?><!--/all">Products</a></li>-->
+<!--        <li><a href="#">Contacts</a></li>-->
+<!---->
+<!--    </ul>-->
+<!--    <div class="lang">-->
+<!--        <ul>-->
+<!--            <li>-->
+<!--                <a href="">-->
+<!--                    <img src="https://img.icons8.com/color/48/000000/uzbekistan.png" alt="">-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="">-->
+<!--                    <img src="https://img.icons8.com/color/48/000000/russian-federation.png"/>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="">-->
+<!--                    <img src="https://img.icons8.com/color/48/000000/usa.png"/>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</div>-->
+<section class="hero hero_home">
+    <div class="Pos(r) W(100%) log">
 
-<section class="hero hero_home"><div class="Pos(r) W(100%) log">
-        <div class="logo">
-            <a class="logo__bistefani" href="/">
-                <img alt="Logo Lindo" class="D(b) Maw(100%) My(0) Mx(a)"
-                     src="<?php bloginfo('template_url'); ?>/assets/img/lindoLogo.png">
-            </a>
-            <ul class="nav">
-                <li>
-                    <a href="">
-                        Menu
-                    </a>
-                </li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Contacts</a></li>
-
-            </ul>
-            <div class="lang">
-                <ul>
-                    <li>
-                        <a href="">
-                            <img src="https://img.icons8.com/color/48/000000/uzbekistan.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="https://img.icons8.com/color/48/000000/russian-federation.png"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="https://img.icons8.com/color/48/000000/usa.png"/>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
     </div>
     <header class="header">
 
@@ -377,7 +372,7 @@ Template Name: lindo
                                     LINDA
                                 </h3>
                                 <h2 class="slideshow__pack-caption text-courgette C(white)">
-                                    Linda shkalat<br>kg shokalat
+                                    Linda <br> shokolad
                                 </h2>
 
                                 <a class="W(100%) Maw(150px) Bdrs(30px) Bgc(tallPoppy) Py(10px) Td(n) C(picasso) Mt(35px)"
@@ -413,7 +408,7 @@ Template Name: lindo
                                     LINDO
                                 </h3>
                                 <h2 class="slideshow__pack-caption text-courgette C(white)">
-                                    Prezident<br>kg shkalat
+                                    President<br>
                                 </h2>
 
                                 <a class="W(100%) Maw(150px) Bdrs(30px) Bgc(tallPoppy) Py(10px) Td(n) C(picasso) Mt(35px)"
@@ -449,7 +444,7 @@ Template Name: lindo
                                     LINDO
                                 </h3>
                                 <h2 class="slideshow__pack-caption text-courgette C(white)">
-                                    Lindo Plitka<br>kg shokalat
+                                    Lindo Plitka<br>shokolad
                                 </h2>
 
                                 <a class="W(100%) Maw(150px) Bdrs(30px) Bgc(tallPoppy) Py(10px) Td(n) C(picasso) Mt(35px)"
@@ -457,7 +452,7 @@ Template Name: lindo
                                    onclick="trackAnalyticsEvent('ux', 'click on CTA', '[cacao]');">
                                     <div class="D(f) Ai(c) Jc(c)">
                                         <p class="slideshow__pack-cta text-regular">
-                                            button
+                                            Bog'lanish
                                         </p>
                                     </div>
                                 </a>
@@ -505,9 +500,9 @@ Template Name: lindo
     </div>
 
     <div class="hero__dots">
-        <h2 class="hero__title text-light P(30px) C(white)">
-            LINDA Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        </h2>
+        <!--        <h2 class="hero__title text-light P(30px) C(white)">-->
+        <!--            LINDA Lorem ipsum dolor sit amet, consectetur adipisicing elit.-->
+        <!--        </h2>-->
 
         <div class="hero__dot-shape-mobile ScaleY(.7)">
             <div class="svg" id="dot-shape-mobile" style="padding-top: 79.88%;">
@@ -553,20 +548,14 @@ Template Name: lindo
         <div class="row">
             <div class="col-12 col-md-10 offset-md-1">
                 <h1 class="text-courgette text_45-to-60 Ta(c) Pb(20px) C(tallPoppy)">
-                    LINDO shokalat fabrikasi
+                   Mexir bilan tayyorlangan shirinliklar
                 </h1>
-                <img alt="lindo 360" class="d-block Maw(100%) My(0) Mx(a)"
-                     src="<?php bloginfo('template_url'); ?>/assets/img/remove/360.png">
+                <!--                <img alt="lindo 360" class="d-block Maw(100%) My(0) Mx(a)"-->
+                <!--                     src="--><?php //bloginfo('template_url'); ?><!--/assets/img/remove/360.png">-->
                 <p class="text-regular text_18-to-30 Ta(c) Lh(30px) Lh(40px)--lg C(saddle)"
                    style="margin-bottom: 60px;">
 
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptatem?
-                    <br>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, dignissimos!
-                    <br>
                 </p>
-
-
 
 
             </div>
@@ -594,17 +583,17 @@ Template Name: lindo
                     if (in_category('lindo_products')) {
                         ?>
                         <li class="splide__slide">
-                            <a href="<?php echo get_permalink()?>">
-                            <div class="card" data-tilt>
-                                <div class="card-element">
-                                    <div class="card-img">
-                                        <img src="<?php the_field('first_img');?>">
-                                    </div>
-                                    <div class="text">
-                                        <h1><?php the_field('name_product');?></h1>
+                            <a href="<?php echo get_permalink() ?>">
+                                <div class="card" data-tilt>
+                                    <div class="card-element">
+                                        <div class="card-img">
+                                            <img src="<?php the_field('first_img'); ?>">
+                                        </div>
+                                        <div class="text">
+                                            <h1><?php the_field('name_product'); ?></h1>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
                             </a>
                         </li>
                         <?php
@@ -616,7 +605,7 @@ Template Name: lindo
             </ul>
         </div>
         <div class="text-more">
-            <a href="./allProducts.html">view more</a>
+            <a href="/allproducts">Barcha maxsulotlar</a>
         </div>
     </section>
 </section>
@@ -691,11 +680,42 @@ Template Name: lindo
                             Lindo
                         </h2>
                         <p class="frame__text text-regular text_18-to-30 C(saddleBlack)">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam, amet aperiam at
-                            aut dignissimos doloribus ea eligendi exercitationem illo incidunt, inventore ipsam itaque
-                            minus nobis repellendus sunt vitae? Aliquid asperiores dolores, doloribus enim est eveniet
-                            exercitationem hic maxime modi nam nostrum quod repellat repellendus totam velit veniam
-                            veritatis voluptatum.</span>
+                            <span>
+                          "Lindo Confectionery" - bu yuqori sifat, eng mayda detallarda puxtalik,<br>
+                         benuqson ishlash va zavqning beqiyos ta'mi!<br>
+                          Shirinliklarni ishlab chiqishda, birinchi navbatda, biz iste'molchilarimiz haqida o'ylaymiz. <br>
+                                Mahsulotlarimiz har bir xonadonga quvonch va ko'proq baxt olib kelishini istaymiz!<br>
+                           Biz mukammallikka intilishda to'xtamasdan,<br>
+                                professional ish va tabiiy ingredientlarni birlashtiramiz. <br>
+                           Bizning asosiy tamoyillarimiz: <br>
+                            • Biz faqat yuqori sifatli xom ashyolardan foydalanamiz; <br>
+                            • Tayyor mahsulot sifatini nazorat qilishga e'tibor qaratish;<br>
+                            • Biz narx va sifatning maqbul kombinatsiyasiga erishishga intilamiz;<br>
+                            • Yangi g'oyalarni izlash.<br>
+                           “Lindo qandolatchilik” korxonasining rivojlanish rejalarida <br>
+                                O‘zbekiston Respublikasi qandolat bozorida mahsulot ulushini oshirish, ishlab chiqarishni modernizatsiya qilish va ishlab chiqarishning texnologik <br>
+                                jarayonlarini takomillashtirish ko‘zda tutilgan.<br>
+                      Muhimlaridan biri sifatida savdo tizimiga ham alohida e'tibor qaratiladi
+                            korxonaning samarali faoliyatining tarkibiy qismlariga.</span>
+
+
+                            <!--                            <span>-->
+                            <!--                            «Lindo Confectionery» - это традиции высокого качества, тшательность в мельчайших деталях,<br>-->
+                            <!--                            безупречность исполнения и непревзойденный вкус удовольствия! <br>-->
+                            <!--                            Разрабатывая сладости, прежде всего, мы думаем о наших потребителях. Мы хотим, что бы наши<br>-->
+                            <!--                            изделия приносили радость в каждый дом, и счастья становилось больше!<br>-->
+                            <!--                            Не останавливаясь в своем стремлении к совершенству, мы сочетаем<br>-->
+                            <!--                            профессиональную работу и натуральные ингредиенты. <br>-->
+                            <!--                            Наши основные принципы: <br>-->
+                            <!--                            • используем только высококачественное сырье; <br>-->
+                            <!--                            • концентрируем внимание на контроле качества готовой продукции;<br>-->
+                            <!--                            • стремимся к достижению оптимального сочетания цена — качество;<br>-->
+                            <!--                            • поиск новых идей.<br>-->
+                            <!--                            В планах развития «Lindo Confectionery» увеличение доли продукции на кондитерском рынке<br>-->
+                            <!--                            Республики Узбекистан, модернизация производства и совершенствование технологических<br>-->
+                            <!--                            процессов производства.<br>-->
+                            <!--                            Особое внимание будет уделяться также системе продаж, как одной из важных-->
+                            <!--                            составляющих эффективной деятельности предприятия.</span>-->
                         </p>
                         <img alt="Lindo info shkalat" class="d-block Maw(50%) My(0) Mx(a)"
                              src="<?php bloginfo('template_url'); ?>/assets/img/remove/milano.png">
@@ -797,31 +817,30 @@ Template Name: lindo
                             </div>
                         </div>
                     </div>
-                    <div class="col-8 col-md-9">
+                    <div class="col-12 col-md-12" style="text-align: center">
                         <h2 class="text-courgette text_45-to-60 C(picasso)">
                             LINDO email
                         </h2>
                     </div>
                     <div class="col-12">
                         <p class="text-regular text_18-to-30 C(white) Ta(c) Py(20px) Pt(5px)--lg Lh(30px)">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio laborum praesentium
-                            suscipit!
+                            Email orqali xabar jo'nating
                         </p>
-                        <p class="text-regular text_18-to-30 C(white) Ta(c) Pb(20px)">
-                            Izox qoldirish
-                        </p>
+<!--                        <p class="text-regular text_18-to-30 C(white) Ta(c) Pb(20px)">-->
+<!--                            Izox qoldirish-->
+<!--                        </p>-->
                         <div class="d-flex flex-column align-items-center">
                             <a class="iubenda-on W(100%) Maw(200px) Maw(250px)--lg Bdrs(30px) Bgc(tallPoppy) Py(10px) Py(15px)--lg Td(n) C(picasso) TranslateY(0) TranslateY(40px)--lg D(n)"
                                href="javascript:showLogin();">
                                 <div class="D(f) Ai(c) Jc(c)">
                                     <p class="slideshow__pack-cta text-regular">
-                                        Izox
+                                        Xabarni yuborish
                                     </p>
                                 </div>
                             </a>
                             <a class="iubenda-off W(100%) Maw(200px) Maw(250px)--lg Bdrs(30px) Bgc(tallPoppy) Py(10px) Py(15px)--lg Td(n) C(picasso) TranslateY(0) TranslateY(40px)--lg"
-                               href="javascript:void(0);"
-                               onclick="window.showScreen='registration';return false;">
+                               href="mailto: lindo@lindo.uz "
+                               >
                                 <div class="D(f) Ai(c) Jc(c)">
                                     <p class="slideshow__pack-cta text-regular">
                                         izox
@@ -979,23 +998,22 @@ Template Name: lindo
                                 </div>
                             </div>
                         </div>
-                        <div class="col-8 col-md-9">
+                        <div class="col-8 col-md-9" id="tel">
                             <h2 class="text-courgette text_45-to-60 C(picasso)">
                                 Biz bilan telefon orqali aloqaga chiqing
                             </h2>
                         </div>
                         <div class="col-12">
                             <p class="text-regular text_18-to-30 C(white) Ta(c) Pt(20px) Pt(0)--lg Pb(40px) Lh(30px)">
-                                LINDO Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum molestias,
-                                quidem.
+
                             </p>
                             <div class="d-flex flex-column align-items-center">
                                 <a class="W(100%) Maw(200px) Maw(260px)--lg Bdrs(30px)  Py(10px) Py(15px)--lg Td(n) C(picasso)"
                                    style="background: #ffaab0"
-                                   href="tel:+9981234567">
+                                   href="tel:+998998556665">
                                     <div class="D(f) Ai(c) Jc(c)">
                                         <p class="slideshow__pack-cta text-regular">
-                                            Telefon nomer
+                                            Qo'ngiroq qilish
                                         </p>
                                     </div>
                                 </a>
@@ -1048,7 +1066,6 @@ Template Name: lindo
     // splide.mount();
 
 
-
     function myFunction(x) {
         var lists = document.getElementById('lists')
         if (x.matches) {
@@ -1057,8 +1074,8 @@ Template Name: lindo
                 perPage: 1,
 
                 perMove: 1,
-                drag   : 'free',
-                focus  : 'center',
+                drag: 'free',
+                focus: 'center',
                 autoScroll: {
                     speed: 1,
                 },
@@ -1066,13 +1083,13 @@ Template Name: lindo
 
             splide.mount();
         } else {
-            new Splide( '.splide' ).mount( window.splide.Extensions );
+            new Splide('.splide').mount(window.splide.Extensions);
             var splide2 = new Splide('.splide', {
                 type: 'loop',
-                perPage: 3  ,
+                perPage: 3,
                 perMove: 1,
-                drag   : 'free',
-                focus  : 'center',
+                drag: 'free',
+                focus: 'center',
                 autoScroll: {
                     speed: 1,
                 },

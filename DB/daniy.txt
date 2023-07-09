@@ -1,0 +1,3 @@
+DB url papka: //lindo
+login: lindo
+parol:2519140man

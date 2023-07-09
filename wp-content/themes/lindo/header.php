@@ -42,6 +42,9 @@
             .nav{
                 flex-wrap: wrap;
             }
+            .logo{
+                top:20%;
+            }
         }
     </style>
     <script type="text/javascript">
@@ -56,3 +59,34 @@
 </head>
 <body>
 
+<div class="logo">
+    <a class="logo__bistefani" href="/">
+        <img alt="Logo Lindo" class="D(b) Maw(100%) My(0) Mx(a)"
+             src="<?php bloginfo('template_url'); ?>/assets/img/lindoLogo.png">
+    </a>
+    <ul class="nav">
+        <li><a href="#">Biz haqimizda</a></li>
+        <li><a href="/allproducts">Maxsulotlar</a></li>
+        <li><a href="/#tel">Biz bilan aloqa</a></li>
+
+    </ul>
+<!--    <div class="lang">-->
+<!--        <ul>-->
+<!--            <li>-->
+<!--                <a href="">-->
+<!--                    <img src="https://img.icons8.com/color/48/000000/uzbekistan.png" alt="">-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="">-->
+<!--                    <img src="https://img.icons8.com/color/48/000000/russian-federation.png"/>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="">-->
+<!--                    <img src="https://img.icons8.com/color/48/000000/usa.png"/>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+</div>
